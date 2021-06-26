@@ -1,0 +1,85 @@
+mode: auto
+
+avatar:
+  url: /images/avatar.jpg
+  status:
+    enable: true
+    emoji: 🌑
+
+reward:
+  enable: false
+  comment: 
+
+comment:
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/FwRiver/fwriver.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+
+footer:
+  since: 2020
+  custom_text:
+
+  live_time:
+    enable: true
+    prefix: 本博客已平安运行了
+    suffix: (●'◡'●)
+    start_time: "2020-05-31T00:00:00"
+
+engine_search:
+  enable: false
+
+algolia_search:
+  enable: true
+  
+post_edit:
+  enable: false
+  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+tags:
+  学习: saddlebrown
+  教程: royalblue
+  分享: "#0078e7"
+  随笔: mediumpurple
+
+# categories:
+
+pages:
+  # - name: 
+  #   url: /links/
+  #   icon: icon-genderless-line
+  #   color: dodgerblue
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+wordcount:
+  enable: true
+
+# 评论系统
+waline:
+  enable: true
+  serverURL: https://hanblog-lemon.vercel.app
+  visitor: true
+  comment: true
+  avatarCDN: https://cdn.v2ex.com/gravatar/
+  placeholder: 大佬请赐教
+  requiredFields: ["nick"]
+  emoji:
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus
+
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/FwRiver/cdn/json/sentences.json
+
+bg_image:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg # recomend image related to your mode
+  dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
+  # blur: 30px
