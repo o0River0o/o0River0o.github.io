@@ -1,5 +1,6 @@
 ---
 title: Hello World
+abbrlink: hello
 tags:
   - test
 categories:

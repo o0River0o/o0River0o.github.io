@@ -4,8 +4,8 @@
 
 # Site
 title: 寒某人的小破站
-subtitle: ''
-description: ''
+subtitle: 
+description: 
 keywords:
 author: 寒（摸鱼怪）
 language: zh-CN
@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:title/
+url: http://fwriver.github.io
+permalink: :year/:month/:abbrlink/
 permalink_defaults:
   lang: en
 pretty_urls:
